@@ -1,5 +1,7 @@
 :root {
     --c-white: #FFF;
+    --c-gray: rgb(162, 162, 162);
+    --c-gray-lt: rgb(225, 225, 225);
     --c-blue: #67A8E4;
     --c-blue-lt: #B5CFE7;
     --c-blue-dk: #337AB7;   

@@ -9,13 +9,81 @@
 }
 
 .l-user {
-    column-gap: 30px;
+    cursor: pointer;
     background-color: #fff;
-    padding: 20px;
-    border-right: 1px solid lightgrey;
+    border: 2px solid var(--c-white);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.l-user:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--c-blue-lt);
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.l-user div { 
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+.l-user div:not(:last-child) { 
+    border-right: 1px solid var(--c-gray);
+}
+
+.u-picture {
+    width: 110px;
+    height: 110px;
+    background-color: var(--c-gray-lt);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+
+.u-name {
+    width: 235px;
+}
+.u-email {
+    width: 270px;
+}
+.u-phone {
+    width: 180px;
+}
+.u-address {
+    width: 320px;
+}
+.u-actions button {
+    background-color: tomato;
+    color: var(--c-white);
+    cursor: pointer;
+    font-weight: 900;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.u-actions button:hover {
+    background-color: red;
 }
