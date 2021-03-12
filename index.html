@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" sizes="32x32" href="/images/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>User Registration System</title>
+</head>
+<body>
+    <div class="login flex flex-jc-c flex-ai-c">
+        <div class="c-login flex flex-dc-c">
+            <img src="images/logo.svg" alt="">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <a href="">LOGIN</a>
+            <a href="">REGISTER</a>
+        </div>
+    </div>
+
+    <footer style="margin-top: -100px;">
+        <a href="index.html">INDEX</a> |
+        <a href="user-list.html">LIST</a> | 
+        <a href="user-form.html">NEW USER</a>
+    </footer>
+        
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCFQbB3-s7OvbKlzz0xf8jH7DXTrjSso9E",
+      authDomain: "user-registration-system-crrts.firebaseapp.com",
+      projectId: "user-registration-system-crrts",
+      storageBucket: "user-registration-system-crrts.appspot.com",
+      messagingSenderId: "451867787625",
+      appId: "1:451867787625:web:f10a95cb7f3a87525abdf8"
+    };
+    // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--c-blue);
+}
+
+.c-login {
+    padding: 30px 40px 50px;
+    background-color: var(--c-blue-dk);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.c-login img {
+    width: 180px;
+    margin: 0 auto 30px;
+}
+
+.c-login input {
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.c-login a {
+    width: 270px;
+    color: var(--c-white);
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.c-login a:nth-of-type(1) {
+    background-image: linear-gradient(to right top, #27abe3, #00b4e2, #00bcde, #0fc4d9, #31cbd2);
+    margin: 50px 0 30px;
+}
+
+.c-login a:nth-of-type(2) {
+    background-color: lightgray;
+}

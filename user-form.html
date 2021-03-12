@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" sizes="32x32" href="/images/logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>New | User Registration System</title>
+</head>
+<body>
+    
+    <div class="c-form">
+        <form action="" class="user-form" id="user-form">
+            <div class="picture">
+                <label for="picture">User picture:</label>
+                <input type="file" id="picture" name="picture">
+            </div>
+            <div class="f-name">
+                <label for="f-name">* First name:</label>
+                <input type="text" id="f-name" name="f-name" required>
+            </div>
+            <div class="l-name">   
+                <label for="l-name">* Last name:</label>
+                <input type="text" id="l-name" name="l-name" required>   
+            </div>
+            <div class="email">    
+                <label for="email">* Email:</label>
+                <input type="email" id="email" name="email" required>  
+            </div>
+            <div class="phone">    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">    
+            </div>
+            <div class="address">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div class="submit">
+                <button type="submit"> CONFIRM </button>
+                <button type="reset"> RESET </button>
+            </div>
+        </form>
+        <a href="user-list.html">< Back</a>
+    </div>
+
+
+    <footer style="margin-top: 200px;">
+        <a href="index.html">INDEX</a> |
+        <a href="user-list.html">LIST</a> | 
+        <a href="user-form.html">NEW USER</a>
+    </footer>
+        
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCFQbB3-s7OvbKlzz0xf8jH7DXTrjSso9E",
+      authDomain: "user-registration-system-crrts.firebaseapp.com",
+      projectId: "user-registration-system-crrts",
+      storageBucket: "user-registration-system-crrts.appspot.com",
+      messagingSenderId: "451867787625",
+      appId: "1:451867787625:web:f10a95cb7f3a87525abdf8"
+    };
+    // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script type="text/javascript" src="js/new-user.js"></script>
+</body>
+</html>

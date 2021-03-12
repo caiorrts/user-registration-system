@@ -1,0 +1,27 @@
+/* Flexbox */
+.flex {
+    display: flex;
+}
+
+.flex-dc-c {
+    flex-direction: column;
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
+}
+
+.flex-jc-c {
+    justify-content: center;
+}
+
+.flex-ai-c {
+    align-items: center;
+}
+
+
+/* Page Center */
+.center {
+    margin: 0 auto;
+    max-width: 1400px;
+}
