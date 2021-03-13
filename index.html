@@ -13,15 +13,16 @@
     <div class="login flex flex-jc-c flex-ai-c">
         <div class="c-login flex flex-dc-c">
             <img src="images/logo.svg" alt="">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
-            <a href="">LOGIN</a>
-            <a href="">REGISTER</a>
+            <input type="text" placeholder="Email" id="log-email">
+            <input type="password" placeholder="Password" id="log-pwd">
+            <button type="submit" id="btn-login">LOGIN</button>
+            <a href="/register.html">REGISTER</a>
         </div>
     </div>
 
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
     <script type="text/javascript" src="js/firebase.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 </body>
 </html>

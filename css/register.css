@@ -1,28 +1,13 @@
-.c-form {
+h1 {
+    color: var(--c-white);
+}
+.c-reg {
     width: 100vw;
     height: 100vh;
     background-color: var(--c-blue-lt);
 }
 
-progress {
-    display: block;
-    width: 300px;
-    height: 7px;
-    margin-bottom: 20px;
-    z-index: 1;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-}
-
-#progress[value]::-webkit-progress-bar {
-    background-color: var(--c-blue);
-    border-radius: 2px;
-}
-
-.user-form {
+.reg-form {
     padding: 50px;
     background-color: var(--c-blue);
     border-radius: 10px;
@@ -32,29 +17,24 @@ progress {
     -o-border-radius: 10px;
 }
 
-.user-form div {
+.reg-form div {
     width: 500px;
     padding: 30px 0 10px;
     border-bottom: 1px solid var(--c-white);
 }
 
-.user-form div:nth-of-type(1) {
-    padding: 0 0 40px 50px;
-    border: none;
-}
-
-.user-form div:nth-of-type(7) {
+.reg-form div:nth-of-type(4) {
     text-align: center;
     border: none;
     padding: 30px 100px 0;
 }
 
-.user-form label {
+.reg-form label {
     color: var(--c-white);
     font-weight: 550;
 }
 
-.user-form input {
+.reg-form input {
     width: 73%;
     background-color: transparent;
     border: none;  
@@ -64,11 +44,12 @@ progress {
     outline-style: none;
 }
 
-.user-form button {
+.reg-form button, a {
     padding: 10px 35px;
     background-color: var(--c-white);
     border: none;
     cursor: pointer;
+    font-size: 1.4rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -76,13 +57,8 @@ progress {
     -o-border-radius: 5px;
 }
 
-.user-form button:nth-of-type(2) {
+.reg-form a {
     margin-left: 20px;
+    padding: 8px 35px;
     background-color: var(--c-gray-lt);
-}
-
-.btn-back a {
-    margin-top: 20px;
-    background-color: black;
-    color: #fff;
 }
