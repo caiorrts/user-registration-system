@@ -6,11 +6,11 @@ btnLogin.addEventListener("click", () => {
 
     firebase.auth().signInWithEmailAndPassword(logEmail.value, logPwd.value)
     .then((user) => {
-        window.location.replace("/user-list.html");
+        window.location.replace("https://caiorrts.github.io/user-registration-system/user-list.html");
         console.log("User Login: ", user);
     })
     .catch((error) => {
-        window.location.replace("/index.html");
+        window.location.replace("https://caiorrts.github.io/user-registration-system/");
         console.log("Error: ", error);
     });
     

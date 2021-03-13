@@ -37,7 +37,7 @@ function init() {
             });
         } else {
             console.log(user)
-            window.location.replace("/index.html");
+            window.location.replace("https://caiorrts.github.io/user-registration-system/");
         }
     });
 }
@@ -71,5 +71,5 @@ function userDelete(id, img){
 
 logout.addEventListener("click", () => {
     firebase.auth().signOut();
-    window.location.replace("/index.html");
+    window.location.replace("https://caiorrts.github.io/user-registration-system/");
 })

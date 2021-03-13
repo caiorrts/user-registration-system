@@ -26,7 +26,7 @@ function addRegUser(userId, name) {
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     })
     .then(function() {
-        window.location.replace("/index.html");
+        window.location.replace("https://caiorrts.github.io/user-registration-system/");
     })
     .catch((err) => console.log("Error: ", err));
 }
