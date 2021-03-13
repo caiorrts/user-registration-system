@@ -9,6 +9,7 @@ const phone     = document.getElementById("phone");
 const address   = document.getElementById("address");
 const progress  = document.getElementById("progress");
 const submit    = document.getElementById("submit");
+const confUser  = document.getElementById("add-user");
 
 let file = "";
 let fileName = "";
@@ -64,6 +65,7 @@ function addUser(firstName, lastName, email, phone, address) {
                     fileExt = "";
                     progress.value = 0;
                     userForm.reset();
+                    confUser.style.display = "block";
                 });
             });
         });

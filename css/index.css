@@ -56,3 +56,19 @@
 .c-login button {
     border: none;
 }
+
+#err-log {
+    display: none;
+    width: 270px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 500;
+    background-color: #fff;
+    color: red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

@@ -1,6 +1,7 @@
 const btnLogin  = document.getElementById("btn-login");
 const logEmail  = document.getElementById("log-email");
 const logPwd    = document.getElementById("log-pwd");
+const errLog    = document.getElementById("err-log");
 
 btnLogin.addEventListener("click", () => {
 
@@ -10,7 +11,8 @@ btnLogin.addEventListener("click", () => {
         console.log("User Login: ", user);
     })
     .catch((error) => {
-        window.location.replace("https://caiorrts.github.io/user-registration-system/");
+        //window.location.replace("https://caiorrts.github.io/user-registration-system/");
+        errLog.style.display = "block";
         console.log("Error: ", error);
     });
 })
