@@ -13,14 +13,4 @@ btnLogin.addEventListener("click", () => {
         window.location.replace("https://caiorrts.github.io/user-registration-system/");
         console.log("Error: ", error);
     });
-    
-    // firebase.auth().onAuthStateChanged(function(user) {
-    //     console.log(user);
-    //     if (user) {
-    //         //window.location.replace("/user-list.html");
-    //     } else {
-    //         console.log(user);
-    //         //window.location.replace("/index.html");
-    //     }
-    // });
 })
